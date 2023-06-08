@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Allison Knight",
+      "email": "twitwins@gmail.com",
+      "isGameMaster": true
+    }
+  ],
+  "settlements": [
+    {
+      "name": "Yharnam",
+      "survivalLimit": "3",
+      "population": "7",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Rocksville",
+      "survivalLimit": "3",
+      "population": "10",
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "sessions": [
+    {
+      "gameMasterId": 1,
+      "settlementId": 1,
+      "id": 1
+    }
+  ]
+}
