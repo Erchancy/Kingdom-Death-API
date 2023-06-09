@@ -56,6 +56,112 @@
       "id": 5
     }
   ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Acid Storm"
+    },
+    {
+      "id": 2,
+      "name": "Clinging Mist"
+    },
+    {
+      "id": 3,
+      "name": "Cracks In The Ground"
+    },
+    {
+      "id": 4,
+      "name": "Dark Dentist"
+    },
+    {
+      "id": 5,
+      "name": "Dark Trader"
+    },
+    {
+      "id": 6,
+      "name": "Elder Council"
+    },
+    {
+      "id": 7,
+      "name": "First Day"
+    },
+    {
+      "id": 8,
+      "name": "Glossolalia"
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "name": "Bone",
+      "type": "Bone"
+    },
+    {
+      "id": 2,
+      "name": "Hide",
+      "type": "Hide"
+    },
+    {
+      "id": 3,
+      "name": "Organ",
+      "type": "Organ"
+    },
+    {
+      "id": 4,
+      "name": "Broken Lantern",
+      "type": "Scrap"
+    },
+    {
+      "id": 5,
+      "name": "Curious Hand",
+      "type": "Hide"
+    },
+    {
+      "id": 6,
+      "name": "Eye of Cat",
+      "type": "Organ"
+    },
+    {
+      "id": 7,
+      "name": "Golden Whiskers",
+      "type": "Organ"
+    },
+    {
+      "id": 8,
+      "name": "Great Cat Bone",
+      "type": "Bone"
+    },
+    {
+      "id": 9,
+      "name": "Lion Claw",
+      "type": "Bone"
+    },
+    {
+      "id": 10,
+      "name": "Lion Tail",
+      "type": "Hide"
+    },
+    {
+      "id": 11,
+      "name": "Lion Testes",
+      "type": "Organ"
+    },
+    {
+      "id": 12,
+      "name": "Shimmering Mane",
+      "type": "Hide"
+    },
+    {
+      "id": 13,
+      "name": "Sinew",
+      "type": "Organ"
+    },
+    {
+      "id": 14,
+      "name": "White Fur",
+      "type": "Hide"
+    }
+  ],
   "milestones": [
     {
       "id": 1,
@@ -75,6 +181,8 @@
     }
   ],
   "achievedMilestones": [],
+  "settlementInventory": [],
+  "settlementEvents": [],
   "sessions": [
     {
       "gameMasterId": 1,
