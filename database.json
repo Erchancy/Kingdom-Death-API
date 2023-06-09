@@ -5,6 +5,18 @@
       "fullName": "Allison Knight",
       "email": "twitwins@gmail.com",
       "isGameMaster": true
+    },
+    {
+      "email": "rockzak@gmail.com",
+      "fullName": "Zachary Rock",
+      "isGameMaster": true,
+      "id": 2
+    },
+    {
+      "email": "bobnewman@gmail.com",
+      "fullName": "Justin Newman",
+      "isGameMaster": true,
+      "id": 3
     }
   ],
   "settlements": [
@@ -21,13 +33,68 @@
       "population": "10",
       "userId": 1,
       "id": 2
+    },
+    {
+      "name": "Kingdom of Zach",
+      "survivalLimit": "3",
+      "population": "4",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Loser Town",
+      "survivalLimit": "8",
+      "population": "12",
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "name": "Bobobo",
+      "survivalLimit": "3",
+      "population": "6",
+      "userId": 3,
+      "id": 5
     }
   ],
+  "milestones": [
+    {
+      "id": 1,
+      "type": "First Child Born"
+    },
+    {
+      "id": 2,
+      "type": "First Death"
+    },
+    {
+      "id": 3,
+      "type": "Population Reaches 15"
+    },
+    {
+      "id": 4,
+      "type": "Innovations Reaches 5"
+    }
+  ],
+  "achievedMilestones": [],
   "sessions": [
     {
       "gameMasterId": 1,
       "settlementId": 1,
       "id": 1
+    },
+    {
+      "gameMasterId": 2,
+      "settlementId": 4,
+      "id": 2
+    },
+    {
+      "gameMasterId": 2,
+      "settlementId": 4,
+      "id": 3
+    },
+    {
+      "gameMasterId": 2,
+      "settlementId": 4,
+      "id": 4
     }
   ]
 }
