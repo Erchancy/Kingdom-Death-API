@@ -17,6 +17,12 @@
       "fullName": "Justin Newman",
       "isGameMaster": true,
       "id": 3
+    },
+    {
+      "email": "jjvduyne@funny.com",
+      "fullName": "Jonathan Vanduyne",
+      "isGameMaster": false,
+      "id": 4
     }
   ],
   "settlements": [
@@ -54,6 +60,20 @@
       "population": "6",
       "userId": 3,
       "id": 5
+    },
+    {
+      "name": "Test",
+      "survivalLimit": "3",
+      "population": "8",
+      "userId": 3,
+      "id": 6
+    },
+    {
+      "name": "Test 2",
+      "survivalLimit": "8",
+      "population": "9",
+      "userId": 3,
+      "id": 7
     }
   ],
   "events": [
@@ -180,9 +200,228 @@
       "type": "Innovations Reaches 5"
     }
   ],
-  "achievedMilestones": [],
-  "settlementInventory": [],
-  "settlementEvents": [],
+  "achievedMilestones": [
+    {
+      "settlementId": 2,
+      "milestoneId": 1,
+      "reached": true,
+      "id": 1
+    },
+    {
+      "settlementId": 2,
+      "milestoneId": 3,
+      "reached": true,
+      "id": 2
+    },
+    {
+      "settlementId": 2,
+      "milestoneId": 3,
+      "reached": true,
+      "id": 3
+    }
+  ],
+  "weaponProficencies": [
+    {
+      "id": 1,
+      "name": "Axe"
+    },
+    {
+      "id": 2,
+      "name": "Bow"
+    },
+    {
+      "id": 3,
+      "name": "Club"
+    },
+    {
+      "id": 4,
+      "name": "Dagger"
+    },
+    {
+      "id": 5,
+      "name": "Fist&Tooth"
+    },
+    {
+      "id": 6,
+      "name": "Grand"
+    },
+    {
+      "id": 7,
+      "name": "Katar"
+    },
+    {
+      "id": 8,
+      "name": "Shield"
+    },
+    {
+      "id": 9,
+      "name": "Spear"
+    },
+    {
+      "id": 10,
+      "name": "Sword"
+    },
+    {
+      "id": 11,
+      "name": "Whip"
+    }
+  ],
+  "fightingArts": [
+    {
+      "id": 1,
+      "name": "Ambidextrous"
+    },
+    {
+      "id": 2,
+      "name": "Berserker"
+    },
+    {
+      "id": 3,
+      "name": "Clutch Fighter"
+    },
+    {
+      "id": 4,
+      "name": "Combo Master"
+    },
+    {
+      "id": 5,
+      "name": "Crazed"
+    },
+    {
+      "id": 6,
+      "name": "Crossarm Block"
+    },
+    {
+      "id": 7,
+      "name": "Double Dash"
+    },
+    {
+      "id": 8,
+      "name": "Extra Sense"
+    },
+    {
+      "id": 9,
+      "name": "Last Man Standing"
+    },
+    {
+      "id": 10,
+      "name": "Leader"
+    }
+  ],
+  "disorders": [
+    {
+      "id": 1,
+      "name": "Aichmophobia"
+    },
+    {
+      "id": 2,
+      "name": "Anxiety"
+    },
+    {
+      "id": 3,
+      "name": "Apathetic"
+    },
+    {
+      "id": 4,
+      "name": "Binge Eating"
+    },
+    {
+      "id": 5,
+      "name": "Coprolalia"
+    },
+    {
+      "id": 6,
+      "name": "Fear of the Dark"
+    },
+    {
+      "id": 7,
+      "name": "Hemophobia"
+    },
+    {
+      "id": 8,
+      "name": "Immortal"
+    },
+    {
+      "id": 9,
+      "name": "Quixotic"
+    },
+    {
+      "id": 10,
+      "name": "Traumatized"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 1,
+      "name": "Acid Palms"
+    },
+    {
+      "id": 2,
+      "name": "Ageless"
+    },
+    {
+      "id": 3,
+      "name": "Analyze"
+    },
+    {
+      "id": 4,
+      "name": "Bitter Frenzy"
+    },
+    {
+      "id": 5,
+      "name": "Crystal Skin"
+    },
+    {
+      "id": 6,
+      "name": "Heart of the Sword"
+    },
+    {
+      "id": 7,
+      "name": "Leyline Walker"
+    },
+    {
+      "id": 8,
+      "name": "Matchmaker"
+    },
+    {
+      "id": 9,
+      "name": "Oracle's Eye"
+    },
+    {
+      "id": 10,
+      "name": "Possessed"
+    }
+  ],
+  "stats": [],
+  "hitLocations": [],
+  "settlementInventory": [
+    {
+      "settlementId": 7,
+      "resourceId": 1,
+      "amount": 2,
+      "id": 6
+    },
+    {
+      "settlementId": 1,
+      "resourceId": 2,
+      "amount": 2,
+      "id": 8
+    },
+    {
+      "settlementId": 2,
+      "resourceId": 13,
+      "amount": 2,
+      "id": 10
+    }
+  ],
+  "settlementEvents": [
+    {
+      "settlementId": 2,
+      "eventId": 1,
+      "year": 1,
+      "id": 1
+    }
+  ],
   "sessions": [
     {
       "gameMasterId": 1,
@@ -190,19 +429,9 @@
       "id": 1
     },
     {
-      "gameMasterId": 2,
-      "settlementId": 4,
+      "gameMasterId": 1,
+      "settlementId": 2,
       "id": 2
-    },
-    {
-      "gameMasterId": 2,
-      "settlementId": 4,
-      "id": 3
-    },
-    {
-      "gameMasterId": 2,
-      "settlementId": 4,
-      "id": 4
     }
   ]
 }
