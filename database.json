@@ -218,6 +218,12 @@
       "milestoneId": 3,
       "reached": true,
       "id": 3
+    },
+    {
+      "settlementId": 1,
+      "milestoneId": 1,
+      "reached": true,
+      "id": 4
     }
   ],
   "weaponProficencies": [
@@ -394,6 +400,7 @@
   ],
   "stats": [],
   "hitLocations": [],
+  "survivors": [],
   "settlementInventory": [
     {
       "settlementId": 7,
@@ -412,6 +419,12 @@
       "resourceId": 13,
       "amount": 2,
       "id": 10
+    },
+    {
+      "settlementId": 1,
+      "resourceId": 5,
+      "amount": 2,
+      "id": 11
     }
   ],
   "settlementEvents": [
@@ -420,6 +433,18 @@
       "eventId": 1,
       "year": 1,
       "id": 1
+    },
+    {
+      "settlementId": 1,
+      "eventId": 1,
+      "year": 1,
+      "id": 2
+    },
+    {
+      "settlementId": 1,
+      "eventId": 2,
+      "year": 2,
+      "id": 3
     }
   ],
   "sessions": [
