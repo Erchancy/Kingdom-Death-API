@@ -398,9 +398,61 @@
       "name": "Possessed"
     }
   ],
-  "stats": [],
-  "hitLocations": [],
-  "survivors": [],
+  "stats": [
+    {
+      "movement": 1,
+      "accuracy": 0,
+      "strength": 0,
+      "evasion": 0,
+      "speed": 1,
+      "luck": 1,
+      "understanding": 1,
+      "courage": 2,
+      "id": 1
+    }
+  ],
+  "hitLocations": [
+    {
+      "headArmor": 2,
+      "headWound": false,
+      "armArmor": 2,
+      "armLightWound": false,
+      "armHeavyWound": false,
+      "bodyArmor": 2,
+      "bodyLightWound": false,
+      "bodyHeavyWound": false,
+      "waistArmor": 2,
+      "waistLightWound": false,
+      "waistHeavyWound": false,
+      "legArmor": 2,
+      "legLightWound": false,
+      "legHeavyWound": false,
+      "id": 1
+    }
+  ],
+  "survivors": [
+    {
+      "userId": 4,
+      "name": "Tester",
+      "survival": "3",
+      "insanity": "8",
+      "huntXp": "2",
+      "gender": "male",
+      "statsId": 1,
+      "hitLocationId": 1,
+      "weaponProfId": 8,
+      "fightingArt1Id": 1,
+      "fightingArt2Id": 3,
+      "fightingArt3Id": 9,
+      "disorder1Id": 1,
+      "disorder2Id": 4,
+      "disorder3Id": 10,
+      "ability1Id": 4,
+      "ability2Id": 9,
+      "ability3Id": 5,
+      "id": 1
+    }
+  ],
   "settlementInventory": [
     {
       "settlementId": 7,
@@ -411,7 +463,7 @@
     {
       "settlementId": 1,
       "resourceId": 2,
-      "amount": 2,
+      "amount": 6,
       "id": 8
     },
     {
@@ -422,9 +474,9 @@
     },
     {
       "settlementId": 1,
-      "resourceId": 5,
-      "amount": 2,
-      "id": 11
+      "resourceId": 6,
+      "amount": 4,
+      "id": 12
     }
   ],
   "settlementEvents": [
