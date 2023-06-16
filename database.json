@@ -23,6 +23,12 @@
       "fullName": "Jonathan Vanduyne",
       "isGameMaster": false,
       "id": 4
+    },
+    {
+      "email": "lb27@gmail.com",
+      "fullName": "Lance Buckley",
+      "isGameMaster": false,
+      "id": 5
     }
   ],
   "settlements": [
@@ -503,12 +509,28 @@
     {
       "gameMasterId": 1,
       "settlementId": 1,
-      "id": 1
+      "id": 1,
+      "settlement": {
+        "name": "Yharnam",
+        "survivalLimit": "3",
+        "population": "7",
+        "userId": 1,
+        "id": 1
+      },
+      "player1Id": 4,
+      "player2Id": 5
     },
     {
       "gameMasterId": 1,
       "settlementId": 2,
-      "id": 2
+      "id": 2,
+      "settlement": {
+        "name": "Rocksville",
+        "survivalLimit": "3",
+        "population": "10",
+        "userId": 1,
+        "id": 2
+      }
     }
   ]
 }
