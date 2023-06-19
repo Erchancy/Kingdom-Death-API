@@ -29,6 +29,12 @@
       "fullName": "Lance Buckley",
       "isGameMaster": false,
       "id": 5
+    },
+    {
+      "email": "tmi19@gmail.com",
+      "fullName": "Thaxton Martinez",
+      "isGameMaster": false,
+      "id": 6
     }
   ],
   "settlements": [
@@ -510,27 +516,15 @@
       "gameMasterId": 1,
       "settlementId": 1,
       "id": 1,
-      "settlement": {
-        "name": "Yharnam",
-        "survivalLimit": "3",
-        "population": "7",
-        "userId": 1,
-        "id": 1
-      },
       "player1Id": 4,
-      "player2Id": 5
+      "player2Id": 5,
+      "player3Id": 6
     },
     {
       "gameMasterId": 1,
       "settlementId": 2,
       "id": 2,
-      "settlement": {
-        "name": "Rocksville",
-        "survivalLimit": "3",
-        "population": "10",
-        "userId": 1,
-        "id": 2
-      }
+      "player1Id": 6
     }
   ]
 }
